@@ -14,6 +14,6 @@ jupyter notebook
 ```
 ## 3. Run code in notebook  
 
-- Open notebook file in folder main
+- Open notebook file in folder `src`
 - Change kernel by choosing Kernel -> Change kernel -> venv
 - Run code in notebook
