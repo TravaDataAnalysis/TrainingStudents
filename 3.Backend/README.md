@@ -23,12 +23,12 @@ MVC is an architectural pattern which means it rules the whole architecture of t
 [//]: # (![MVC Architecture]&#40;images/mvc.png&#41;)
 
 <p align="center">
-    <img src="docs/images/mvc.png" alt="MVC Architecture" width="500"/>
+    <img src="docs/images/mvc.png" alt="MVC Architecture" width="400"/>
 </p>
 
-* Models: Contains all the objects that describe the data such as classes, data processing methods, and is responsible for accessing data on the database.
-* Views: A collection of user interface files.
-* Controllers: Keeping the task of handling user requests, Controllers will call Models to manipulate the database and return the user interface through Views.
+* Model: Contains all the objects that describe the data such as classes, data processing methods, and is responsible for accessing data on the database.
+* View: A collection of user interface files.
+* Controller: Keeping the task of handling user requests, Controller will call Model to manipulate the database and return the user interface through View.
 
 > *Task 1: Descript MVC model operation flow*
 
