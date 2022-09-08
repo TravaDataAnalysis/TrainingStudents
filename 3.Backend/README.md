@@ -23,7 +23,7 @@ MVC is an architectural pattern which means it rules the whole architecture of t
 [//]: # (![MVC Architecture]&#40;images/mvc.png&#41;)
 
 <p align="center">
-    <img src="images/mvc.png" alt="MVC Architecture" width="500"/>
+    <img src="docs/images/mvc.png" alt="MVC Architecture" width="500"/>
 </p>
 
 * Models: Contains all the objects that describe the data such as classes, data processing methods, and is responsible for accessing data on the database.
@@ -39,7 +39,7 @@ MVC is an architectural pattern which means it rules the whole architecture of t
 [//]: # (![HTTP Request]&#40;images/http_request.png&#41;)
 
 <p align="center">
-    <img src="images/http_request.png" alt="HTTP Request" width="500"/>
+    <img src="docs/images/http_request.png" alt="HTTP Request" width="500"/>
 </p>
 
 Requests consist of the following elements:
@@ -59,7 +59,7 @@ Requests consist of the following elements:
 [//]: # (![HTTP Response]&#40;images/http_response.png&#41;)
 
 <p align="center">
-    <img src="images/http_response.png" alt="HTTP Response" width="500"/>
+    <img src="docs/images/http_response.png" alt="HTTP Response" width="500"/>
 </p>
 
 Responses consist of the following elements:
@@ -87,3 +87,5 @@ Responses consist of the following elements:
 *Reference: [RESTful API là gì ?](https://viblo.asia/p/restful-api-la-gi-1Je5EDJ4lnL)*
 
 ## Practice
+
+
