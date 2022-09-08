@@ -106,7 +106,7 @@ $ pip3 install -r requirements.txt
 [//]: # (![JWT]&#40;../docs/images/jwt.png&#41;)
 
 <p align="center">
-    <img src="../docs/images/jwt.png" alt="JWT" width="500"/>
+    <img src="../docs/images/jwt.png" alt="JWT" width="700"/>
 </p>
 
 > Task 5:
