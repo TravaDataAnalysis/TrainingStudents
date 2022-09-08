@@ -20,19 +20,28 @@
 
 MVC is an architectural pattern which means it rules the whole architecture of the applications.
 
-![MVC Architecture](images/mvc.png)
+[//]: # (![MVC Architecture]&#40;images/mvc.png&#41;)
+
+<p align="center">
+    <img src="images/mvc.png" alt="MVC Architecture" width="500"/>
+</p>
 
 * Models: Contains all the objects that describe the data such as classes, data processing methods, and is responsible for accessing data on the database.
 * Views: A collection of user interface files.
 * Controllers: Keeping the task of handling user requests, Controllers will call Models to manipulate the database and return the user interface through Views.
 
-> Task 1: Descript MVC model operation flow
+> *Task 1: Descript MVC model operation flow*
 
 *Reference: [Đôi điều về mô hình MVC](https://viblo.asia/p/doi-dieu-ve-mo-hinh-mvc-E375z0vJZGW)*
 
 ### HTTP Request
 
-![HTTP Request](images/http_request.png)
+[//]: # (![HTTP Request]&#40;images/http_request.png&#41;)
+
+<p align="center">
+    <img src="images/http_request.png" alt="HTTP Request" width="500"/>
+</p>
+
 Requests consist of the following elements:
 
 * `HTTP method`: Usually a verb like GET, POST, or a noun like OPTIONS or HEAD that defines the operation the client wants to perform. Typically, a client wants to fetch a resource (using GET) or post the value of an HTML form (using POST), though more operations may be needed in other cases.
@@ -41,13 +50,18 @@ Requests consist of the following elements:
 * `Headers`: That convey additional information for the servers.
 * `Body`: (optional) For some methods like POST, which contain the resource sent.
 
-> Task 2: List HTTP methods and their usage
+> *Task 2: List HTTP methods and their usage*
 
 *Reference: [Requests](https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview#requests)*
 
 ### HTTP Response
 
-![HTTP Response](images/http_response.png)
+[//]: # (![HTTP Response]&#40;images/http_response.png&#41;)
+
+<p align="center">
+    <img src="images/http_response.png" alt="HTTP Response" width="500"/>
+</p>
+
 Responses consist of the following elements:
 
 * `Version`: The version of the HTTP protocol they follow.
@@ -56,7 +70,7 @@ Responses consist of the following elements:
 * `Headers`: Like those for requests.
 * `Body`: (optional) Containing the fetched resource.
 
-> Task 3: List HTTP response status codes and their meanings
+> *Task 3: List HTTP response status codes and their meanings*
 
 *Reference: [Responses](https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview#responses)*
 
