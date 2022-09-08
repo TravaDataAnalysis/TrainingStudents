@@ -44,8 +44,8 @@ MVC is an architectural pattern which means it rules the whole architecture of t
 
 Requests consist of the following elements:
 
-* `HTTP method`: Usually a verb like GET, POST, or a noun like OPTIONS or HEAD that defines the operation the client wants to perform. Typically, a client wants to fetch a resource (using GET) or post the value of an HTML form (using POST), though more operations may be needed in other cases.
-* `Path`: The path of the resource to fetch; the URL of the resource stripped from elements that are obvious from the context, for example without the protocol (http://), the domain (here, developer.mozilla.org), or the TCP port (here, 80).
+* `HTTP method`: Defines the operation the client wants to perform. Typically, a client wants to fetch a resource (using GET) or post the value of an HTML form (using POST).
+* `Path`: The path of the resource to fetch.
 * `Version`: The version of the HTTP protocol.
 * `Headers`: That convey additional information for the servers.
 * `Body`: (optional) For some methods like POST, which contain the resource sent.
@@ -64,10 +64,10 @@ Requests consist of the following elements:
 
 Responses consist of the following elements:
 
-* `Version`: The version of the HTTP protocol they follow.
+* `Version`: The version of the HTTP protocol.
 * `Status Code`: Indicating if the request was successful or not, and why.
 * `Status Message`: A non-authoritative short description of the status code.
-* `Headers`: Like those for requests.
+* `Headers`: That convey additional information for the servers.
 * `Body`: (optional) Containing the fetched resource.
 
 > *Task 3: List HTTP response status codes and their meanings*
@@ -88,4 +88,4 @@ Responses consist of the following elements:
 
 ## Practice
 
-
+> Follow the instructions in the project [TrainingAPI](TrainingAPI)
