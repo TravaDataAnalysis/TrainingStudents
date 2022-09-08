@@ -1,0 +1,23 @@
+{
+  "Books": {
+    "collection_name": "books",
+    "document_fields": {
+      "_id": "{uuid}",
+      "title": "Title of the book",
+      "authors": "List of book's authors",
+      "publisher": "Book publisher",
+      "description": "(Optional) Short description of the book's content",
+      "owner": "(Optional) User add book to the system",
+      "createdAt": "Timestamp to added to the system",
+      "lastUpdatedAt": "Timestamp to last updated to the system"
+    }
+  },
+  "Users": {
+    "collection_name": "users",
+    "document_fields": {
+      "_id": "{username}",
+      "username": "Username of user",
+      "password": "Hash of user's password"
+    }
+  }
+}
