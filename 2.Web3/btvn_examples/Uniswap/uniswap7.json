@@ -1,4 +1,10 @@
 {
-  "wallet": "0",
-  "numberOfTransactions": 19
+  "userInfo": [
+    0,
+    0
+  ],
+  "infoExplanation": {
+    "<field1>": "<your answer>",
+    "<field2>": "<your answer"
+  }
 }
