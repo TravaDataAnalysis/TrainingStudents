@@ -1,16 +1,10 @@
 {
   "poolInfo": {
-    "accCakePerShare": 5320665111426364368,
-    "lastRewardBlock": 21169582,
-    "allocPoint": 1100,
-    "totalBoostedShare": 4070408783102575456985145,
-    "isRegular": true
+    "<field 1>": 0,
+    "<field 2": 0
   },
   "poolExplanation": {
-    "accCakePerShare": "<your answer>",
-    "lastRewardBlock": "<your answer>",
-    "allocPoint": "<your answer>",
-    "totalBoostedShare": "<your answer>",
-    "isRegular": "<your answer>"
+    "<field 1>": "<your answer>",
+    "<field 2>": "<your answer>"
   }
 }
