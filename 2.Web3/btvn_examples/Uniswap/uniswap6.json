@@ -1,4 +1,8 @@
 {
-  "wallet": "0x0000000000000000000000000000000000000000",
-  "numberOfTransactions": 0 
+  "blocksInfo": {
+    "startBlock": 21168840,
+    "endBlock": 21169840
+  },
+  "maxFrequency": 0,
+  "wallet": "0x0000000000000000000000000000000000000000"
 }

@@ -1,8 +1,8 @@
 {
-  "from_block": 46620553,
-  "to_block": 46630552,
-  "max_frequency": 30,
-  "tokens": [
-    "0x04068da6c83afcfa0e13ba15a6696662335d5b75"
-  ]
+  "blocksInfo": {
+    "startBlock": 21168840,
+    "endBlock": 21169840
+  },
+  "maxFrequency": 0,
+  "token": "0x00000000000000000000000000000000000000"
 }
