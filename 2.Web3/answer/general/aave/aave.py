@@ -210,7 +210,7 @@ class Aave:
     Dựa vào địa chỉ Oracle (Aave oracle) và abi/oracle_abi.json tìm giá (asset price) của token ở câu 3.
     """
 
-    def ex5(self, token, abi_url='abi/oracle_abi.json', contract_address='0xC466e3FeE82C6bdc2E17f2eaF2c6F1E91AD10FD3'):
+    def ex5(self, token, abi_url='../../../abi/oracle_abi.json', contract_address='0xC466e3FeE82C6bdc2E17f2eaF2c6F1E91AD10FD3'):
         token = self.web3.toChecksumAddress(token)
         if not self.web3.isAddress(contract_address):
             contract_address = self.web3.toChecksumAddress(contract_address)
@@ -236,4 +236,4 @@ class Aave:
 
 if __name__ == '__main__':
     runner = Aave()
-    runner.ex5('0x04068da6c83afcfa0e13ba15a6696662335d5b75')
+    runner.ex2()
