@@ -17,7 +17,7 @@ def main():
         return 0
 
     masterchefv2_addr = "0xa5f8C5Dbd5F286960b9d90548680aE5ebFf07652"
-    with open('../../abi/masterchef_abi.json') as f:
+    with open('../../../../abi/masterchef_abi.json') as f:
         abi = json.load(f)
 
     contract = web3.eth.contract(abi=abi, address=masterchefv2_addr)
@@ -30,7 +30,7 @@ def main():
         'lpTokenAddress': lp_address,
     }
     json_obj = json.dumps(result, indent=2)
-    with open('./uniswap2.json', 'w') as f:
+    with open('uniswap2.json', 'w') as f:
         f.write(json_obj)
 
 

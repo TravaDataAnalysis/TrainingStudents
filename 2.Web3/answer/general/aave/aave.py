@@ -14,7 +14,7 @@ class Aave:
         self.web3.middleware_onion.inject(geth_poa_middleware, layer=0)
 
         pool_address = self.web3.toChecksumAddress(pool_address)
-        with open('abi/lending_pool_aave_v2.json', 'r') as f:
+        with open('../../../abi/lending_pool_aave_v2.json', 'r') as f:
             self.abi = json.loads(f.read())
 
         self.contract_address = pool_address

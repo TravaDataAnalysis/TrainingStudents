@@ -12,7 +12,7 @@ class General:
         self.web3.middleware_onion.inject(geth_poa_middleware, layer=0)
 
         token_address = self.web3.toChecksumAddress(token_address)
-        with open('abi/erc_20.json', 'r') as f:
+        with open('../../abi/erc_20.json', 'r') as f:
             abi = json.loads(f.read())
 
         self.contract = self.web3.eth.contract(abi=abi, address=token_address)
