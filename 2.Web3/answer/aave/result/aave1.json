@@ -1,0 +1,107 @@
+{
+  "blocksInfo": {
+    "startBlock": 46972720,
+    "endBlock": 46973719
+  },
+  "event": [
+    {
+      "type": "event",
+      "event_type": "REPAY",
+      "contract_address": "0x9fad24f572045c7869117160a571b2e50b10d068",
+      "transaction_hash": "0xb72d92acd6f4e3ac98790d8817e110d1fbbebc533addace7251799c0aee90d72",
+      "log_index": 30,
+      "block_number": 46972894,
+      "reserve": "0xb3654dc3d10ea7645f8319668e8f54d2574fbdc8",
+      "user": "0x0f0fa4edec62dc8b86889615d2eb97010c0e879c",
+      "repayer": "0x0f0fa4edec62dc8b86889615d2eb97010c0e879c",
+      "amount": "40926709854109917380"
+    },
+    {
+      "type": "event",
+      "event_type": "WITHDRAW",
+      "contract_address": "0x9fad24f572045c7869117160a571b2e50b10d068",
+      "transaction_hash": "0x039d035b4666c01241d3dcd23d3dbbb0ee21daaa0d317c9f8e019d9f30c38a4d",
+      "log_index": 22,
+      "block_number": 46972949,
+      "reserve": "0x049d68029688eabf473097a2fc38ef61633a3c7a",
+      "user": "0x0f0fa4edec62dc8b86889615d2eb97010c0e879c",
+      "to": "0x0f0fa4edec62dc8b86889615d2eb97010c0e879c",
+      "amount": "251000000"
+    },
+    {
+      "type": "event",
+      "event_type": "BORROW",
+      "contract_address": "0x9fad24f572045c7869117160a571b2e50b10d068",
+      "transaction_hash": "0x98982fb274e0e43d2111a90f388eea3f48b97c7fe6a10b3787708d6f95c9eba2",
+      "log_index": 58,
+      "block_number": 46972979,
+      "reserve": "0x21be370d5312f44cb42ce377bc9b8a0cef1a4c83",
+      "onBehalfOf": "0x8c33603b70af43435eb4b28e24d9870bea553d39",
+      "referral": "0",
+      "user": "0x47102245fea0f8d35a6b28e54505e9ffd83d0704",
+      "amount": "1200000000000000000000",
+      "borrowRateMode": "2",
+      "borrowRate": "67005020305181776682976913"
+    },
+    {
+      "type": "event",
+      "event_type": "REPAY",
+      "contract_address": "0x9fad24f572045c7869117160a571b2e50b10d068",
+      "transaction_hash": "0x846120ef828155a42b939b29d81d22259ab0cf69cdaccb4cdddb68d119fa415a",
+      "log_index": 50,
+      "block_number": 46973139,
+      "reserve": "0x74b23882a30290451a17c44f4f05243b6b58c76d",
+      "user": "0x8c33603b70af43435eb4b28e24d9870bea553d39",
+      "repayer": "0x8c33603b70af43435eb4b28e24d9870bea553d39",
+      "amount": "8336277824618550"
+    },
+    {
+      "type": "event",
+      "event_type": "WITHDRAW",
+      "contract_address": "0x9fad24f572045c7869117160a571b2e50b10d068",
+      "transaction_hash": "0x621ce8a0218c84d249b39deed473c8c5989e1e3ba4b1a0080a63bcc1443ae404",
+      "log_index": 65,
+      "block_number": 46973150,
+      "reserve": "0x8d11ec38a3eb5e956b052f67da8bdc9bef8abf3e",
+      "user": "0xdb10d21f28a34fd04e4425eac777483798f7e217",
+      "to": "0xdb10d21f28a34fd04e4425eac777483798f7e217",
+      "amount": "14014191141916916115"
+    },
+    {
+      "type": "event",
+      "event_type": "WITHDRAW",
+      "contract_address": "0x9fad24f572045c7869117160a571b2e50b10d068",
+      "transaction_hash": "0x466cd43aca4034d8abfee80c507b4bfb757e3b15cc31c813a767413dce66e36c",
+      "log_index": 20,
+      "block_number": 46973175,
+      "reserve": "0x21be370d5312f44cb42ce377bc9b8a0cef1a4c83",
+      "user": "0x47102245fea0f8d35a6b28e54505e9ffd83d0704",
+      "to": "0x47102245fea0f8d35a6b28e54505e9ffd83d0704",
+      "amount": "11842470371142493332"
+    },
+    {
+      "type": "event",
+      "event_type": "REPAY",
+      "contract_address": "0x9fad24f572045c7869117160a571b2e50b10d068",
+      "transaction_hash": "0x1f41de64c12019d0625e3a1ffb88bd114a1a104920d588f0e4007dc182d1c413",
+      "log_index": 16,
+      "block_number": 46973230,
+      "reserve": "0xb3654dc3d10ea7645f8319668e8f54d2574fbdc8",
+      "user": "0x0f0fa4edec62dc8b86889615d2eb97010c0e879c",
+      "repayer": "0x0f0fa4edec62dc8b86889615d2eb97010c0e879c",
+      "amount": "34076222309482887588"
+    },
+    {
+      "type": "event",
+      "event_type": "WITHDRAW",
+      "contract_address": "0x9fad24f572045c7869117160a571b2e50b10d068",
+      "transaction_hash": "0xda4158cf5160a20663aae7b957d01c6d1bdba951825027a495d2e78074890d87",
+      "log_index": 75,
+      "block_number": 46973715,
+      "reserve": "0x049d68029688eabf473097a2fc38ef61633a3c7a",
+      "user": "0x50ae81c68b499386065f7e6f89bbe14da64a6c04",
+      "to": "0x5965e53aa80a0bcf1cd6dbdd72e6a9b2aa047410",
+      "amount": "20014088"
+    }
+  ]
+}

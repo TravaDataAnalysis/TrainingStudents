@@ -1,0 +1,18 @@
+{
+  "blocksInfo": {
+    "startBlock": 46972720,
+    "endBlock": 46973719
+  },
+  "maxFrequency": 3,
+  "wallets": [
+    {
+      "address": "0x0F0fa4EdEC62Dc8B86889615D2Eb97010c0e879c",
+      "totalCollateralETH": 748932510339873936533,
+      "totalDebtETH": 0,
+      "availableBorrowsETH": 599071115020865161833,
+      "currentLiquidationThreshold": 8499,
+      "ltv": 7999,
+      "healthFactor": 115792089237316195423570985008687907853269984665640564039457584007913129639935
+    }
+  ]
+}
