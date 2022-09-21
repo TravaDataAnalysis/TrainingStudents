@@ -1,0 +1,44 @@
+{
+  "blocksInfo": {
+    "startBlock": 21168840,
+    "endBlock": 21169840
+  },
+  "events": [
+    {
+      "type": "event",
+      "event_type": "SWAP",
+      "contract_address": "0x58f876857a02d6762e0101bb5c46a8c1ed44dc16",
+      "transaction_hash": "0xcb5803c507d393d0aeea7c39e95a8ea5601376263aeb7b4fe198432f49791f41",
+      "log_index": 24,
+      "block_number": 21168840,
+      "sender": "0x0000000000008afdacc486225455281f614843e7",
+      "to": "0x668c440d71118ca449c556ff4bfcfc64ca205ff9",
+      "amount0In": "68723789917271461",
+      "amount1In": "0",
+      "amount0Out": "0",
+      "amount1Out": "19283970876497865916"
+    },
+    {
+      "type": "event",
+      "event_type": "TRANSFER",
+      "contract_address": "0x58f876857a02d6762e0101bb5c46a8c1ed44dc16",
+      "transaction_hash": "0x5d856a98f6f4856bab07a6d9f618d3bf6a7e33bd3feb3e8e5730e436aab2e901",
+      "log_index": 129,
+      "block_number": 21168840,
+      "from": "0x3f94533a6bca463ad098e9ba2206133916f92e19",
+      "to": "0xa738c23b69c76c6dc6a2ff8a3af81c3685a93658",
+      "value": "6746000000000000000"
+    },
+    {
+      "type": "event",
+      "event_type": "APPROVAL",
+      "contract_address": "0x58f876857a02d6762e0101bb5c46a8c1ed44dc16",
+      "transaction_hash": "0x5d856a98f6f4856bab07a6d9f618d3bf6a7e33bd3feb3e8e5730e436aab2e901",
+      "log_index": 130,
+      "block_number": 21168840,
+      "owner": "0xa738c23b69c76c6dc6a2ff8a3af81c3685a93658",
+      "spender": "0x8e9ecec207eab4bdc94f86c1fb3f2db5c125b3a1",
+      "value": "6746000000000000000"
+    }
+  ]
+}

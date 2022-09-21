@@ -1,0 +1,16 @@
+{
+  "poolInfo": {
+    "accCakePerShare": 5330856880711161149,
+    "lastRewardBlock": 21344688,
+    "allocPoint": 1100,
+    "totalBoostedShare": 4207200941257535711548185,
+    "isRegular": true
+  },
+  "poolExplanation": {
+    "accCakePerShare": "Accumulated CAKEs per share, times 1e12",
+    "lastRewardBlock": "Last block number that pool update action is executed",
+    "allocPoint": "The amount of allocation points assigned to the pool",
+    "totalBoostedShare": "The total amount of user shares in each pool. After considering the share boosts",
+    "isRegular": "The flag to set pool is regular or special"
+  }
+}
