@@ -2,7 +2,7 @@
 
 ## Purpose
 
-* Understanding the components of HTTP Request and HTTP Response
+* Providing basic knowledge of Web Application and Web Development
 * Knowing how to use different types of HTTP Request and HTTP Response
 * Building a full basic functionality Web Server
 
