@@ -6,6 +6,10 @@ A simple Web Server to build a Book Archive.
 Users can add any books to the archive and manage their books, by updating and deleting. 
 And everyone can view all books in the archive.
 
+<p align="center">
+    <img src="../docs/images/user_case.png" alt="Use Case Diagram" width="600"/>
+</p>
+
 ## Setup
 
 Copy file `.env.example` to `.env` and change the following lines according to database settings:
