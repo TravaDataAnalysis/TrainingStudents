@@ -96,7 +96,8 @@ $ pip3 install -r requirements.txt
 > Task 4:
 > 
 > * API Get all books: Cache data response
-> * API Create, Update, Delete: Update cache when data updated
+
+[//]: # (> * API Create, Update, Delete: Update cache when data updated)
 
 ## Authentication & Authorization
 
