@@ -28,7 +28,7 @@ class Config:
     SECRET_KEY = os.getenv('SECRET_KEY', '85c145a16bd6f6e1f3e104ca78c6a102')
     EXPIRATION_JWT = 3600  # seconds
 
-    REDIS = 'redis://:trunghieu0910@0.0.0.0:6379/0'
+    REDIS = 'redis://localhost:6379/0'
 
     API_HOST = os.getenv('API_HOST', '0.0.0.0:8081')
     API_SCHEMES = os.getenv('API_SCHEMES', 'http')
