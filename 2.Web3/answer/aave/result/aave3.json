@@ -1,10 +1,10 @@
 {
   "blocksInfo": {
-    "startBlock": 46972720,
-    "endBlock": 46973719
+    "startBlock": 36622054,
+    "endBlock": 36722053
   },
-  "maxFrequency": 1,
+  "maxFrequency": 467,
   "tokens": [
-    "0x21be370d5312f44cb42ce377bc9b8a0cef1a4c83"
+    "0x55d398326f99059ff775485246999027b3197955"
   ]
 }

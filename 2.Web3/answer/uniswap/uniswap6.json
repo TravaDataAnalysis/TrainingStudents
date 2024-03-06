@@ -1,8 +1,8 @@
 {
   "blocksInfo": {
-    "startBlock": 21343721,
-    "endBlock": 21344720
+    "startBlock": 36721221,
+    "endBlock": 36722220
   },
-  "maxFrequency": 18,
-  "wallet": "0x46764EFBE6D466A6beB89E876fE1F0602EbbE39A"
+  "maxFrequency": 10,
+  "wallet": "0x319CC898c8690fdf97440dD054f25Eb5DC7e2374"
 }

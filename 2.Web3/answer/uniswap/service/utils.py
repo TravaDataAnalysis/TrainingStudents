@@ -1,4 +1,6 @@
 from eth_utils import keccak
+import hexbytes
+
 def hex_to_dec(hex_string):
     if hex_string is None:
         return None
@@ -39,6 +41,8 @@ def validate_range(range_start_incl, range_end_incl):
 
 # remove redundancy in topic
 def split_to_words(data):
+    if type(data) is hexbytes.main.HexBytes:
+        data = data.hex()
     if data and len(data) > 2:
         data_without_0x = data[2:]
         words = list(chunk_string(data_without_0x, 64))

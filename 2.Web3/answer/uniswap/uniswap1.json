@@ -1,9 +1,9 @@
 {
   "poolInfo": {
-    "accCakePerShare": 5330856880711161149,
-    "lastRewardBlock": 21344688,
-    "allocPoint": 1100,
-    "totalBoostedShare": 4207200941257535711548185,
+    "accCakePerShare": 5848148801503265166,
+    "lastRewardBlock": 36716890,
+    "allocPoint": 0,
+    "totalBoostedShare": 37481995681978615045559,
     "isRegular": true
   },
   "poolExplanation": {
